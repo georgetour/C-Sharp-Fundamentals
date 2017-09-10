@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{BAC11092-CBBD-40A5-99C4-943A84659B46}</ProjectGuid>
+    <ProjectGuid>{CFDAEDB7-5FAA-4BB5-9E19-D12807D9A731}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>C_Sharp_Fundamentals</RootNamespace>
-    <AssemblyName>C-Sharp-Fundamentals</AssemblyName>
+    <RootNamespace>Scope</RootNamespace>
+    <AssemblyName>Scope</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,9 +43,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Math\Calculator.cs" />
-    <Compile Include="myEnum.cs" />
-    <Compile Include="MyString.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
