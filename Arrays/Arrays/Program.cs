@@ -30,6 +30,8 @@ namespace Arrays
             //Or string[] names = new string[3] {"John" , "Cookie", "Choco"}; This is called object initilazation syntax
             //or var names = new string[3];
 
+            Console.WriteLine(names[2]); //Returns Choco
+
 
 
 

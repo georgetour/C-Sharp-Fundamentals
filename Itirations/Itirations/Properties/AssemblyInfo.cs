@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("C-Sharp-Fundamentals")]
+[assembly: AssemblyTitle("Itirations")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("C-Sharp-Fundamentals")]
+[assembly: AssemblyProduct("Itirations")]
 [assembly: AssemblyCopyright("Copyright ©  2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("bac11092-cbbd-40a5-99c4-943a84659b46")]
+[assembly: Guid("a9530aab-e4ac-4165-999f-dbb9801f5583")]
 
 // Version information for an assembly consists of the following four values:
 //

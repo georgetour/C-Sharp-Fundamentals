@@ -1,18 +1,24 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-namespace C_Sharp_Fundamentals
+namespace Strings
 {
-    public class MyString
+    class Program
     {
-        
-        public void myDetails() {
-            //A string is a sequence of characters and we have it inside double quotes
+        static void Main(string[] args)
+        {
+
+            //A string is a sequence of characters example "Hello C#" and we have it inside double quotes
 
             string firstName = "George";
             string lastName = "Bee";
 
-            // To concatinate strings use + 
-            string details = "Hello my first Name is " + firstName + "and my last " + lastName ;
+            //To concatinate string use + 
+            string details = "Hello my first Name is " + firstName;
+
 
 
             #region String Format
@@ -24,33 +30,33 @@ namespace C_Sharp_Fundamentals
             #endregion
 
 
+            
             #region String join
-            //Using string join which combines elements and uses the first parameter as the seperator
+            //Using join which combines elements and uses the first parameter as the seperator
             var numbers = new int[3];
+            numbers[0] = 1;
+            numbers[1] = 2;
+            numbers[2] = 3;
             string total = string.Join(",", numbers);
+
+            Console.WriteLine(total);
+
 
             #endregion
 
-            #region String Elements
+
             //String elements
             string name = "Bee";
             char firstChar = name[0]; //Returns f
 
-            #endregion
-
             //Strings are immutable which means when are declared can't be changed
 
-            #region Escape Characters
             //Escape characters
             // \n new line
             // \t Tab
             // \\ Backslash
             // \' Single Quotation Mark
             // \" Double Quotation Mark
-
-
-            #endregion
-
 
 
             #region  Verbatim strings
@@ -66,7 +72,7 @@ namespace C_Sharp_Fundamentals
             string verbatim = @"Hi look in here
 path1
 path2";
-             
+
 
             Console.WriteLine(verbatim + " " + correctPath);
 
@@ -76,12 +82,21 @@ path2";
 
             int number = 5;
             string convertedNumber = number.ToString();
-          
-            
+
+
             #endregion
 
-        }
-        
 
+            #region Format String
+
+            Console.WriteLine("{0} - {1}", byte.MinValue, byte.MaxValue);
+            Console.WriteLine("{0} - {1}", float.MinValue, float.MaxValue);
+
+
+            #endregion
+
+
+
+        }
     }
 }
