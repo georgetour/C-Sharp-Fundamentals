@@ -10,6 +10,11 @@ namespace Summarize_Text
     {
         static void Main(string[] args)
         {
+            var sentence = "It's a Very very very very Very very very very Very very very very Very very very very long text";
+
+            Console.WriteLine(String_Utility.SummarizeText(sentence, 30));
+
+
         }
     }
 }

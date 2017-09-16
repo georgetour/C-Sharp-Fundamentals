@@ -4,10 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Classes_and_Namespaces
+namespace Classes
 {
-    public class Client
+    class Client
     {
+
         //public keyword means that they are accessible everywhere we call them
 
 
@@ -21,16 +22,16 @@ namespace Classes_and_Namespaces
 
         //Methods with void don't return anything they just do something 
         //and with the keyword return they return something
-        public void showDetails() {
+        public void showDetails()
+        {
 
             //By adding + to a string it concatinates with the next
             Console.WriteLine("id " +
-                id + " first name "  +
-                firstName + " membership active: " + 
+                id + " first name " +
+                firstName + " membership active: " +
                 membershipActive
            );
 
         }
-
     }
 }

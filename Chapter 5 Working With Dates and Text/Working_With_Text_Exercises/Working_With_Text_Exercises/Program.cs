@@ -4,9 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Summarize_Text
+namespace Working_With_Text_Exercises
 {
-    class String_Utility
+    class Program
     {
+        static void Main(string[] args)
+        {
+        }
     }
 }
