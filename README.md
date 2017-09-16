@@ -61,8 +61,10 @@ Divided in Chapters and sub files according to advancement you should proceed
 
 2. Manipulating_Text
 
-3.Summerize_Text
+3. Summarize_Text
 
 4. Playing_with_StringBuilder
+
+5. Working_With_Text_Exercises
 
 
