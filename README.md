@@ -25,7 +25,7 @@ Divided in Chapters and sub files according to advancement you should proceed
 
 ## Chapter 2 Non-Primitive Types 
 
-1. Classes_and_Namespaces
+1. Classes
 
 2. Structs
 
