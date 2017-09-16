@@ -23,38 +23,46 @@ Divided in Chapters and sub files according to advancement you should proceed
 
 7. Comments_and_Regions
 
-8. Classes_and_Namespaces
+## Chapter 2 Non-Primitive Types 
 
-9. Structs
+1. Classes_and_Namespaces
 
-10. Arrays
+2. Structs
 
-11. Strings
+3. Arrays
 
-12. Enums
+4. Strings
 
-13. Value_Types_and_Reference_Types
+5. Enums
 
-14. Conditionals
+6. Value_Types_and_Reference_Types
 
-15. Itirations
+## Chapter 3 Conditions and Loops
 
-16. Itirations_Excercises
+1. Conditionals
 
-17. Random_Class
+2. Itirations
 
-18. MultidimensionalArrays
+3. Itirations_Excercises
 
-19. Lists
+4. Random_Class
 
-20. Arrays_and_Lists_Excercises
+## Chapter 4 Arrays and Lists
 
-21. Dates
+1. MultidimensionalArrays
 
-22. Manipulating_Text
+2. Lists
 
-23.Summerize_Text
+3. Arrays_and_Lists_Excercises
 
-24. Playing_with_StringBuilder
+## Chapter 5 Working With Dates and Text
+
+1. Dates
+
+2. Manipulating_Text
+
+3.Summerize_Text
+
+4. Playing_with_StringBuilder
 
 
