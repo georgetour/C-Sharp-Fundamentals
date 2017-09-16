@@ -51,8 +51,10 @@ Divided in Chapters and sub files according to advancement you should proceed
 
 21. Dates
 
+22. Manipulating_Text
 
+23.Summerize_Text
 
-
+24. Playing_with_StringBuilder
 
 
