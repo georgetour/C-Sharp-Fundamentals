@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MultiDimensionalArrays
+namespace Arrays_and_Multidimensional
 {
     class Program
     {
@@ -45,10 +45,10 @@ namespace MultiDimensionalArrays
             int[] numbers = new int[] { 3, 7, 9, 14, 3 };
 
             //Length property returns the size of the array
-            Console.WriteLine("Length of the array is" +numbers.Length);
+            Console.WriteLine("Length of the array is" + numbers.Length);
 
             //IndexOf return the index
-            var index = Array.IndexOf(numbers,9);
+            var index = Array.IndexOf(numbers, 9);
             Console.WriteLine("Index of 9 is " + index);
 
 
@@ -98,7 +98,9 @@ namespace MultiDimensionalArrays
             }
 
 
-        }
 
+
+
+        }
     }
 }
