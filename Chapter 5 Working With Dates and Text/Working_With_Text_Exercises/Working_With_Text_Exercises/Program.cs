@@ -11,7 +11,9 @@ namespace Working_With_Text_Exercises
         static void Main(string[] args)
         {
 
-            Exercise_1.Consecutive();
+            //Exercise_1.Consecutive();
+
+            Exercise_2.CheckDuplicates();
 
 
         }
