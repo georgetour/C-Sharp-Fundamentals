@@ -11,9 +11,15 @@ namespace Working_With_Text_Exercises
         static void Main(string[] args)
         {
 
+            //Just write the class and call the method 
+
             //Exercise_1.Consecutive();
 
-            Exercise_2.CheckDuplicates();
+            //Exercise_2.CheckDuplicates();
+
+            //Exercise_3.CheckTime();
+
+            Exercise_4.PascalCase();
 
 
         }
