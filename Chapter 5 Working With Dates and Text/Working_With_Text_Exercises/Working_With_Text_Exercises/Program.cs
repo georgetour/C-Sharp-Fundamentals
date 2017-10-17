@@ -19,7 +19,9 @@ namespace Working_With_Text_Exercises
 
             //Exercise_3.CheckTime();
 
-            Exercise_4.PascalCase();
+            //Exercise_4.PascalCase();
+
+            Exercise_5.CountVowels();
 
 
         }
