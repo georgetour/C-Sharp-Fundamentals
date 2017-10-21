@@ -67,4 +67,8 @@ Divided in Chapters and sub files according to advancement you should proceed
 
 5. Working_With_Text_Exercises
 
+## Chapter 6 Working With Files
+
+1. Working_With_Files
+
 
