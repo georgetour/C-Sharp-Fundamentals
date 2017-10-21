@@ -20,8 +20,14 @@ namespace Procedural_Programming
 
             Console.WriteLine("Write numbers seperated with comma and i ll show you unique ones");
 
-            
-            var numbers = new List<int>() { 5, 4, 4, 3 };
+            var input = Console.ReadLine();
+
+            var numbers = new List<int>();
+
+            foreach (var number in input.Split(','))
+            {
+                numbers.Add(Convert.ToInt32(number));
+            }
             
             GetUniqueNumbers(numbers);
             
