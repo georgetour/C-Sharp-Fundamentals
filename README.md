@@ -49,7 +49,7 @@ Divided in Chapters and sub files according to advancement you should proceed
 
 ## Chapter 4 Arrays and Lists
 
-1. MultidimensionalArrays
+1. Arrays_and_Multidimensional
 
 2. Lists
 
@@ -69,6 +69,10 @@ Divided in Chapters and sub files according to advancement you should proceed
 
 ## Chapter 6 Working With Files
 
-1. Working_With_Files
+readme.txt
+
+1. File_And_FileInfo
+
+2. Directory_And_DirectoryInfo
 
 
