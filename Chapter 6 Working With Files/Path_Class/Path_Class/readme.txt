@@ -1,0 +1,2 @@
+- The path class provides some useful methods for manipulating paths.
+- We are having a lot less work from that class for paths.

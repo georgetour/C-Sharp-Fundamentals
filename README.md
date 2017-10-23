@@ -75,4 +75,6 @@ readme.txt
 
 2. Directory_And_DirectoryInfo
 
+3. Path_Class
+
 
