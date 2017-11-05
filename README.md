@@ -77,4 +77,12 @@ readme.txt
 
 3. Path_Class
 
+4. Working_With_Files_Exercices
+
+## Chapter 7 Debugging and Visual Studio
+
+readme.txt
+
+1. Debugging_Tools_Visual_Studio
+
 
