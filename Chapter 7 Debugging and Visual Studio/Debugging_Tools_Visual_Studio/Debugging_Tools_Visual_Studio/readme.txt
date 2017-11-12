@@ -26,7 +26,7 @@ in this windows we can watch our variables and look at them at all time
 
 We have put the variables we want to watch as shown in 4.Watch_Variables_Values_Live.jpg but list[i] shows an error 
 since i haven't been defined yet. You will see min is red colored since it just changed
-As you notice list[i] becomes 2 and in our logig we are saying if min < list[i] then min = list[i] so min will become the bigger
+As you notice list[i] becomes 2 and in our logic we are saying if min < list[i] then min = list[i] so min will become the bigger
 number and not the smallest
 	5.Found_the_Problem.jpg
 
@@ -39,6 +39,7 @@ To Step Into F11
 Keyboard shortcuts
 Ctrl + F5 Run without debug
 F5 run in debug mode
+Shift+F5 stop debugging
 F5 contunue to next breakpoint
 F9 add breakpoint in line 
 F10 Step Over
@@ -47,3 +48,11 @@ Shift + F11 Step Out
 
 Delete all breakpoints
 - Screenshot 6.Delete_All_Brakpoints or 7.Delete_All_Brakpoints_2
+
+Call Stack Window
+If we want to see how we get to our breakpointwhere we can check the call stack which shows the order of what was run as shown in 8.Call_Stack_Window from bottom to current
+
+
+Autos and Locals
+Instead of using the Watch window and putting manually variables u can use autos or locals windows which visual studio automatically detects variables you might want to
+see as shown in 9.Autos_and_Locals.jpg.

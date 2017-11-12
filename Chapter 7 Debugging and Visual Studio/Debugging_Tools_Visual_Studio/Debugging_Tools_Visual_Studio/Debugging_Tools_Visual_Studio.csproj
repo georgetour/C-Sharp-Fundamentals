@@ -57,6 +57,7 @@
     <Content Include="Debugging Screenshots\5.Found_the_Problem.jpg" />
     <Content Include="Debugging Screenshots\6.Delete_All_Breakpoints.jpg" />
     <Content Include="Debugging Screenshots\7.Delete_All_Breakpoints_2.jpg" />
+    <Content Include="Debugging Screenshots\8.Call_Stack_Window.jpg" />
     <Content Include="readme.txt" />
   </ItemGroup>
   <ItemGroup />
