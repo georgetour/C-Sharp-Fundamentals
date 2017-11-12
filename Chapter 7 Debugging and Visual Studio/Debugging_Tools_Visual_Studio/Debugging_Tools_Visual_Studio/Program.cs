@@ -11,7 +11,7 @@ namespace Debugging_Tools_Visual_Studio
         static void Main(string[] args)
         {
 
-            var numbers = new List<int> { 1, 2, 3, 4, 5, 6 };
+            var numbers = new List<int> { 1,2};
             var smallests = GetSmallests(numbers, 3);
 
             foreach (var number in smallests)
@@ -22,13 +22,23 @@ namespace Debugging_Tools_Visual_Studio
 
         public static List<int> GetSmallests(List<int> list, int count)
         {
+
+            if (list == null)
+                throw new ArgumentOutOfRangeException("list");
+            //Check if we have correct arguments so the list doesn't have fewer elements than count
+            if (count > list.Count || count<=0)
+               throw new ArgumentOutOfRangeException("count","Count should be between 1 and the number of elements in the list");
+            
+            //Instead of removing the numbers from the original list we removed them from buffer
+            var buffer = new List<int>(list);
+
             var smallests = new List<int> ();
 
             while (smallests.Count < count)
             {
-                var min = GetSmallest(list);
+                var min = GetSmallest(buffer);
                 smallests.Add(min);
-                list.Remove(min);
+                buffer.Remove(min);
             }
 
 
@@ -42,7 +52,7 @@ namespace Debugging_Tools_Visual_Studio
             var min = list[0];
             for (int i = 0; i < list.Count; i++)
             {
-                if (min < list[i])
+                if (min > list[i])
                 {
                     min = list[i];
                 }
