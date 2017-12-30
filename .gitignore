@@ -240,3 +240,5 @@ ModelManifest.xml
 
 # FAKE - F# Make
 .fake/
+Summary-Non-Primitive-Types.pdf
+Summary-Primitive-Types-And-Expressions.pdf

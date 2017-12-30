@@ -27,12 +27,14 @@ namespace Value_Types_and_Reference_Types
             //Memory allocation Done automatically
             //Removed when out of scope
 
-
+            //https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/value-types 
 
             //Reference Types
             //You need to allocate memory
             //Memory allocated on heap(temporary stored)
             //Garbage Collection by CLR(automatically the CLR looks for objects that isn't used and remove them from memory  )
+
+            //https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/reference-types
 
             //Independent in memory
             var a = 10;

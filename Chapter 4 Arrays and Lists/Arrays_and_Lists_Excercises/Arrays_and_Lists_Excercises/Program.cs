@@ -131,9 +131,8 @@ namespace Arrays_and_Lists_Excercises
                     Console.WriteLine("The number already exists");
                     continue;
                 }
-
                 totalNumbers.Add(inputNumber);
-                }
+           }
             
 
             totalNumbers.Sort();
